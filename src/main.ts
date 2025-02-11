@@ -66,10 +66,10 @@ const viewerPromise = createViewerForCanvas(canvas, {
 
     console.log(giRSMMgr);
     //
+    //Uncomment the line below to see the error
+    // giRSMMgr.enable = true;
+
     /*
-    giRSMMgr.enable = true;
- 
-   
     details.scene.materials.forEach((material) => {
       if ((material as any).ambientColor) {
         (material as any).ambientColor.set(1, 1, 1);
